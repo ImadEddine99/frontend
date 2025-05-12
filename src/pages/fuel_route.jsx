@@ -18,7 +18,7 @@ export default function FuelRoute() {
     
     try {
       const params = new URLSearchParams({ start, end });
-      const url = `http://localhost:8000/api/fuel-route/?start=${encodeURIComponent(start)}&end=${encodeURIComponent(end)}`;
+      const url = `${process.env.API_LINK}/api/fuel-route/?start=${encodeURIComponent(start)}&end=${encodeURIComponent(end)}`;
 
 
       const resp = await fetch(url);

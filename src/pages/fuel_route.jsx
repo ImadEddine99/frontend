@@ -86,7 +86,7 @@ export default function FuelRoute() {
       </Backdrop>
 
       <Box sx={{ mb: 4 }}>
-        <Link to={`/`} style={{ textDecoration: "none" }}>
+        <Link to={`/routefuel_front`} style={{ textDecoration: "none" }}>
           <MaterialLink
             color="textPrimary"
             component="a"

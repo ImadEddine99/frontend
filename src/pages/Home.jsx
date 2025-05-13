@@ -15,7 +15,7 @@ export default function Home() {
         <div>
             <h1 className="text-3xl font-bold">Welcome to fuel station locator</h1>
             <p>Find the most affordable fuel station in your path </p>
-            <Button variant="contained" color="#646cff" style={{backgroundColor: "#646cff"}}  onClick={() => navigate('/fuel-route')}>
+            <Button variant="contained" color="#646cff" style={{backgroundColor: "#646cff"}}  onClick={() => navigate('/routefuel_front/fuel-route')}>
                 Locate fuel stations
             </Button>
         </div>

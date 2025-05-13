@@ -20,7 +20,7 @@ function App() {
     right: 0,bottom:0,paddingTop:'4rem'}}> {/* Add padding-top to account for fixed navbar */}
         <Routes>
   <Route path="/routefuel_front/" element={<Home />}>
-    <Route path="fuel-route" element={<FuelRoute />} />
+    <Route path="/routefuel_front/fuel-route" element={<FuelRoute />} />
   </Route>
 </Routes>
       </div>

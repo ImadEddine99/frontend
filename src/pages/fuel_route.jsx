@@ -15,10 +15,11 @@ export default function FuelRoute() {
 
   const getData = async ({ start, end }) => {
     setLoading(true);
-    
+    console.log(import.meta.env.VITE_API_LINK);
     try {
       const params = new URLSearchParams({ start, end });
-      const url = `${process.env.API_LINK}/api/fuel-route/?start=${encodeURIComponent(start)}&end=${encodeURIComponent(end)}`;
+
+      const url = `${import.meta.env.VITE_API_LINK}api/fuel-route/?start=${encodeURIComponent(start)}&end=${encodeURIComponent(end)}`;
 
 
       const resp = await fetch(url);

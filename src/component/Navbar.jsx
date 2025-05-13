@@ -50,7 +50,7 @@ export default function Navbar() {
   return (
     <header style={headerStyle}>
       <div style={containerStyle}>
-        <Link to="/" style={{ display: 'flex', alignItems: 'center', textDecoration: 'none' }}>
+        <Link to="/routefuel_front/" style={{ display: 'flex', alignItems: 'center', textDecoration: 'none' }}>
           <span style={{ fontWeight: 'bold', fontSize: '1.125rem' }}>Fuel station locator</span>
         </Link>
 

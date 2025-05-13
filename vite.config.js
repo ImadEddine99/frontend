@@ -9,6 +9,7 @@ import path from 'path';
 
 
 export default defineConfig({
+   base:"routefuel_front",
   plugins: [react()],
   resolve: {
     alias: {
